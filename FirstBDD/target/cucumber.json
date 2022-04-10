@@ -1,0 +1,1418 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6174000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "StepDef.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4010800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDef.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3558200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "StepDef.checkIfBrowserIsStarted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:47.898Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1502200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebValidation()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 115400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWebValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6029400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2563900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User login into application with \"jin\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jin\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDef.user_login_into_application_with_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3561600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1766700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Cards displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1522100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "StepDef.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 971400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDef.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2286800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "StepDef.checkIfBrowserIsStarted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:47.993Z",
+        "before": [
+          {
+            "result": {
+              "duration": 133700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebValidation()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 446900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWebValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7412000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2778300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User login into application with \"john\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDef.user_login_into_application_with_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2716000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2524200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1104000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "StepDef.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1023000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDef.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1004500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "StepDef.checkIfBrowserIsStarted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:48.033Z",
+        "before": [
+          {
+            "result": {
+              "duration": 310200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebValidation()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 131000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWebValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10199900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3570300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User signUp with following details",
+            "match": {
+              "location": "StepDef.userSignUpWithFollowingDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "harish",
+                  "ha123",
+                  "harish@gmail.com",
+                  "Indian",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4587600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2143200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4791100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "StepDef.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2206600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDef.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2512900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "StepDef.checkIfBrowserIsStarted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:48.078Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1539800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebValidation()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login;home-page-default-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 630900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWebValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4838700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1008900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User login into application with username user1 and password pass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 42
+                },
+                {
+                  "val": "pass1",
+                  "offset": 61
+                }
+              ],
+              "location": "StepDef.user_login_into_application_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1723500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2987300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "StepDef.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1529200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDef.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5053500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "StepDef.checkIfBrowserIsStarted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:48.129Z",
+        "before": [
+          {
+            "result": {
+              "duration": 487200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebValidation()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login;home-page-default-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1261400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWebValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2812000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1177000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User login into application with username user2 and password pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 42
+                },
+                {
+                  "val": "pass2",
+                  "offset": 61
+                }
+              ],
+              "location": "StepDef.user_login_into_application_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2626000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1643100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1404100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "StepDef.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 892000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is triggered",
+            "match": {
+              "location": "StepDef.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1476800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check if browser is started",
+            "match": {
+              "location": "StepDef.checkIfBrowserIsStarted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:48.168Z",
+        "before": [
+          {
+            "result": {
+              "duration": 138600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebValidation()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Home page default login",
+        "description": "",
+        "id": "portal-login;home-page-default-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 530000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWebValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2115700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1654900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User login into application with username user3 and password pass3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 42
+                },
+                {
+                  "val": "pass3",
+                  "offset": 61
+                }
+              ],
+              "location": "StepDef.user_login_into_application_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1160300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 881100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebTest"
+          }
+        ]
+      }
+    ],
+    "name": "Portal Login",
+    "description": "",
+    "id": "portal-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/Application.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-15T04:42:48.191Z",
+        "before": [
+          {
+            "result": {
+              "duration": 489200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebValidation()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 113500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWebValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1983400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6284000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User login into application with \"jin\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jin\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"1234\"",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDef.user_login_into_application_with_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2726400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2675100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Cards displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:48.235Z",
+        "before": [
+          {
+            "result": {
+              "duration": 163800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebValidation()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 86200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWebValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 898400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3581600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User signUp with following details",
+            "match": {
+              "location": "StepDef.userSignUpWithFollowingDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "harish",
+                  "ha123",
+                  "harish@gmail.com",
+                  "Indian",
+                  "1234567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1759800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2032900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:48.251Z",
+        "before": [
+          {
+            "result": {
+              "duration": 419200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 196000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3266600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3096700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User login into application with username user1 and password pass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 42
+                },
+                {
+                  "val": "pass1",
+                  "offset": 61
+                }
+              ],
+              "location": "StepDef.user_login_into_application_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1692200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1730900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:48.287Z",
+        "before": [
+          {
+            "result": {
+              "duration": 154700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 551300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2134800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5956300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User login into application with username user2 and password pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 42
+                },
+                {
+                  "val": "pass2",
+                  "offset": 61
+                }
+              ],
+              "location": "StepDef.user_login_into_application_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2948900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1685500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T04:42:48.309Z",
+        "before": [
+          {
+            "result": {
+              "duration": 168000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1874400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "StepDef.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1005900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User login into application with username user3 and password pass3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 42
+                },
+                {
+                  "val": "pass3",
+                  "offset": 61
+                }
+              ],
+              "location": "StepDef.user_login_into_application_with_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 748400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Home page is populated",
+            "match": {
+              "location": "StepDef.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 851400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.cardsDisplayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/Login.feature",
+    "tags": []
+  }
+]
